@@ -5,4 +5,4 @@ This tool is designed to create a phonetic profile of an unknown speaker based o
 A folder with all the AMPER pitch files (txt in St) that you use as db. Your files must be in '../DBase_Amper_Forensic'
 
 ### Output 
-Simmilarity matrix and best candidate.
+Simmilarity matrices and best candidate. Results are saved at: 'resultsForensic/'
