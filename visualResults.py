@@ -33,6 +33,5 @@ def printHeatMap(corrMatrix, labels, max_value, file1, file2):
     
     ax.set_title("Higher corr "+ str(max_value) + " in file "+ labels[file1] + " and " + labels[file2] )
     fig.tight_layout()
-    #▲plt.show()
     plt.savefig('resultsForensic/corr.png', dpi=300)
     
